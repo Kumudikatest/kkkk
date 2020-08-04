@@ -1,0 +1,175 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "c523f20d-4964-4d89-8bb4-e8ca6538ac68": {
+        "id": "c523f20d-4964-4d89-8bb4-e8ca6538ac68",
+        "parent": null,
+        "name": "kkkk.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "kkkk.js",
+        "cursor": {
+          "lineNumber": 17,
+          "column": 6
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "kkkk"
+        },
+        "triggers": [],
+        "testCases": {
+          "227bffba-182d-4a3f-937a-47aa34afdf5d": {
+            "id": "227bffba-182d-4a3f-937a-47aa34afdf5d",
+            "name": "Test event",
+            "functionId": "c523f20d-4964-4d89-8bb4-e8ca6538ac68",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "b47bb16b-9f8f-4667-b32b-aec41f8e122b": {
+        "id": "b47bb16b-9f8f-4667-b32b-aec41f8e122b",
+        "parent": null,
+        "name": "kk.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "kk.py",
+        "cursor": {
+          "lineNumber": 17,
+          "column": 5
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "kk"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1TestAPIMyLambdadelete",
+            "config": {}
+          }
+        ],
+        "testCases": {
+          "9cb2020c-95ff-4f87-8add-deae18ad8478": {
+            "id": "9cb2020c-95ff-4f87-8add-deae18ad8478",
+            "name": "Test event",
+            "functionId": "b47bb16b-9f8f-4667-b32b-aec41f8e122b",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "c523f20d-4964-4d89-8bb4-e8ca6538ac68",
+      "b47bb16b-9f8f-4667-b32b-aec41f8e122b"
+    ],
+    "currentFileId": "c523f20d-4964-4d89-8bb4-e8ca6538ac68",
+    "resources": {
+      "apigusEast1TestAPIMyLambdadelete": {
+        "name": "apigusEast1TestAPIMyLambdadelete",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiType": 1,
+          "apiMode": 1,
+          "apiName": "TestAPI",
+          "apiId": "0itznun7w3",
+          "endpointType": "EDGE",
+          "rootResourceId": "h2lelj6j7k",
+          "existingResources": {
+            "/MyLambda": "98nqbj",
+            "/": "h2lelj6j7k",
+            "/newchange/test": "k6pdhn",
+            "/newchange": "q1ox7l",
+            "/testWithSlash": "q4m4g1",
+            "/testtwospeciallambda": "q4szm3",
+            "/testtwospecialkumutest": "wey3lk"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/MyLambda",
+          "resourceName": "MyLambda",
+          "resourceId": "98nqbj",
+          "restMethod": "DELETE",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test12",
+          "stageDeploymentId": "e5e7il",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "k1",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "swagger-client": {
+          "name": "swagger-client",
+          "language": "nodejs",
+          "version": "3.8.21",
+          "dev": false,
+          "notRemovable": false
+        },
+        "requests": {
+          "name": "requests",
+          "language": "python",
+          "version": "2.18.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.1.4",
+    "projectName": "kkkk",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1596541350821
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "kkkk",
+      "url": "https://github.com/Kumudikatest/kkkk"
+    }
+  }
+}
